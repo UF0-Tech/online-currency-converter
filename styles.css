@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #00008B, #00f2fe);
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.converter-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745; /* Green color */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+#swap {
+    background-color: #007bff;
+    font-size: 18px;
+    width: 50px;
+    align-self: center;
+}
+
+#swap:hover {
+    background-color: #0056b3;
+}
+
+p#result, p#exchangeRate {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.result-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#amountContainer {
+    display: flex; /* Make the container a flexbox */
+    align-items: center; /* Align items vertically */
+}
+
+#amount {
+    flex: 1; /* Make the input take available space */
+    margin-right: 10px; /* Add space between input and label */
