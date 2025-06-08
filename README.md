@@ -25,10 +25,10 @@ A responsive web-based currency converter built with **HTML**, **CSS**, and **Ja
 4. The converted amount is calculated and displayed immediately.
 
 ## 📁 Project Structure
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+-  index.html
+-  style.css
+-  script.js
+-  README.md
 
 ## 🌐 Live Demo
 
