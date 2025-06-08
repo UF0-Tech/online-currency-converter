@@ -8,7 +8,8 @@ A responsive web-based currency converter built with **HTML**, **CSS**, and **Ja
 - User-friendly and intuitive design  
 - Instant conversion results  
 - Responsive layout for all devices  
-- Supports multiple currencies  
+- Supports multiple currencies
+- Exchange rates updated every 24 hours 
 
 ## 🛠️ Technologies Used
 
