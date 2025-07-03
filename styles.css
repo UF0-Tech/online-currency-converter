@@ -98,6 +98,6 @@ header a {
   font-weight: bold;
 }
 
- .link-item:hover .github-icon {
+ .github-icon:hover {
             fill: blue;  /* Change color on hover */
         }
