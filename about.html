@@ -37,6 +37,26 @@
         .contact-links {
             margin-top: 10px;              /* Reduced Space from Heading */
         }
+
+        .contact-links {
+      margin-top: 20px;
+      display: flex;
+      gap: 20px; /* space between icons */
+      justify-content: center; /* center them horizontally */
+    }
+    
+    .contact-item i {
+      font-size: 2.5rem; /* make icons bigger */
+      color: #555; /* default color */
+      transition: color 0.3s ease, transform 0.3s ease;
+      cursor: pointer;
+    }
+    
+    .contact-item i:hover {
+      color: #007bff; /* blue on hover */
+      transform: scale(1.2); /* slight zoom effect on hover */
+    }
+
 </style>
 </head>
 <body>
