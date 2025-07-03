@@ -97,3 +97,7 @@ header a {
   color: #333;
   font-weight: bold;
 }
+
+ .link-item:hover .github-icon {
+            fill: blue;  /* Change color on hover */
+        }
